@@ -2,6 +2,7 @@ REPO = dr.ytlabs.co.kr
 REPO_HUB = jinwoo
 NAME = elasticmq
 VERSION = 0.9.3
+include ENVAR
 
 .PHONY: all build push test tag_latest release ssh
 
